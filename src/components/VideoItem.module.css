@@ -1,0 +1,21 @@
+.container {
+  width: 25%;
+  padding: 0.2em;
+}
+
+.video {
+  width: 100%;
+  border: 1px solid gray;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video:hover {
+  transform: scale(1.02);
+}
+
+.thumbnail {
+  height: 100%;
+}
