@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./VideoItem.module.css";
 
 function VideoItem({ video }) {
-  console.log(video);
   return (
     <li className={styles.container}>
       <div className={styles.video}>
@@ -15,9 +14,9 @@ function VideoItem({ video }) {
           <p>{video.snippet.title}</p>
           <p>{video.snippet.channelTitle}</p>
         </div>
-        <div className='statistics'>
+        {/* <div className='statistics'>
           <p>{video.statistics.viewCount}</p>
-        </div>
+        </div> */}
       </div>
     </li>
   );
